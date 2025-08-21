@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Helvetica, verdana;
+}
+
+
+
+/* Sets Header styles */
+
+.site-header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+
+.site-header h1 {
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; /* Makes the links horizontally */
+  justify-content: center; /* Centers the links */
+  gap: 25px;  /* Space between each link */
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-links a {
+	color: white;
+	margin: 0 15px;
+	text-decoration: none; /* Removes the Underline */
+	font-weigh: bold;
+}
+
+
+.nav-links a:hover {
+	text-decoration: underline;
+	color: red; /* WHY DOES IT NOT WORK???? */
+}
+
+
+/* Three Horizontal sections */
+
+.body-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 40px 20px;
+	gap: 20px;
+	background-color: white;
+}
+
+
+.box-info {
+	background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.box-info h2 {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+
+.box-info p {
+	font-size: 1em;
+	color: black;
+}
+
+
+/* Footer */
+
+.page-footer {
+	background-color: dimgrey;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+	color: black;
+    display: flex;
+  	justify-content: center;
+  	font-size: 0.9em;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.social-links img {
+	width: 24px;
+  	height: 24px;
+  	align-content: center;
+  	margin-left: 50px;
+
+}
